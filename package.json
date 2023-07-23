@@ -1,0 +1,30 @@
+{
+  "name": "real-time-chat-application",
+  "version": "1.0.0",
+  "description": "Real-Time Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrarunsingh8/real-time-chat-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrarunsingh8/real-time-chat-application/issues"
+  },
+  "homepage": "https://github.com/mrarunsingh8/real-time-chat-application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.4.0",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
